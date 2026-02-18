@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mazza's Pizza</title>
+        <link rel="shortcut icon" href="./imgs/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="pedido.css">
+    </head>
+    <body>
+        <!--div da barra de navegacao no topo do site-->
+        <div class="nav">
+            <img class="navimg" src="./imgs/mazza.png">
+            <ul class="navbar">
+                <li class="navitem"><a class="navbt" href="index.html">Home</a>
+                </li>
+                <li class="navitem"><a class="navbt" href="sobre.html">Sobre</a>
+                </li>
+                <li class="navitem"><a class="navbt" href="cardapio.html">Cardápio</a>
+                </li>
+              </ul>
+        </div>
+
+        <div class="pedido">
+
+            <form action="" method="" class="pedidoform">
+
+                <label id="labelname">
+                    <span class="inputxt">Seu nome</span>
+                    <input type="text" name="name" id="nome">
+                </label>
+                <div id="errorn"></div>
+
+                <label id = "labelfon">
+                    <span class="inputxt">N° de telefone |  Formato: DDD-0000-0000</span>
+                    <input type="tel" name="fone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" id = "fone">
+                </label>
+                <div id="errorf"></div>
+                
+                <label id="labeladr">
+                    <span class="inputxt">Endereço</span>
+                    <input type="text" name="endereco" id="endereco">
+                </label>
+                <div id="errore"></div>
+
+                <div id="pedidores">
+                    
+                </div>
+
+                <div class="buttons" id="buttons">
+                    <input type="button" onclick="maispizza()" value="+Pizza" class="button">
+                    <input type="button" onclick="maisbebida()" value="+Bebida" class="button">
+                    <input type="button" onclick="maisdoce()" value="+Doce" class="button">
+                </div>
+
+                <label>
+                    <input type="button" id="finish" value="Concluir o pedido!" onclick="fim()">
+                </label>
+
+            </form>
+        </div>
+        <script src="pedido.js"></script>
+    </body>
+</html>

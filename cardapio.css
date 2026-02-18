@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.navimg{
+    margin-top: 0.6%;
+    margin-left: 1%;
+    float: left;
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+}
+
+.navitem {
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.8%;
+    font-size: 20px;
+    width: 10%;
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+    margin-bottom: 2%;
+    float: left;
+    align-items: center;
+}
+
+.navbt {
+    color: lavender;
+    width: 100px;
+    display: inline;
+    float: right;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-left: 25%;
+}
+
+.order {
+    color: black;
+    background-color:white;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 5%;
+    text-decoration: none;
+    border-radius: 5px;
+    border-top: solid 5px white;
+}
+
+.card {
+    margin-top: 150px;
+    color: white;
+    width: 100%;
+}
+
+.pizzas{
+    display: block;
+    margin:20px;
+}
+
+.recheios{
+    display: inline-block;
+}
+
+.pizzacard{
+    display: inline-block;
+    margin-left: 300px;
+    margin-bottom: 250px;
+}
+
+.precheio {
+    margin: 30px;
+}
+
+.bebidas {
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: block;
+}
+.btitle {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.drinks {
+    display: inline-block;
+}
+
+.bebidaitem {
+    margin: 50px;
+}
+
+.bebidacard{
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+
+.doces{
+    display: block;
+    margin:30px;
+}
+
+.doceitem {
+    margin: 15px;
+}
+
+.doceslista {
+    float: left;
+}
+
+.docecard {
+    width: 256px;
+    height: 256px;
+    margin-right: 150px;
+    float: right;
+}
+
