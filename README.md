@@ -2,7 +2,7 @@
 
 Projeto desenvolvido como atividade prática para a disciplina de informática no **IFC Campus Concórdia**. O site é uma plataforma institucional e de pedidos para a pizzaria do Chef Mazzutti.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **HTML5**: Estrutura semântica e organizada.
 * **CSS3**: Design personalizado com foco em legibilidade e alto contraste.
